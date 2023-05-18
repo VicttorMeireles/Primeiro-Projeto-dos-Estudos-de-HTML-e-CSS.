@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Antonio', sans-serif;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #000;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+header li:hover {
+    background: #585858;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#buscar:hover {
+
+    background: none;
+}
+
+
+
+#nav-ul {
+    list-style: none;
+}
+
+#nav-li {
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+#nav-a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#login-cadastro {
+    display: inline;
+    margin-left: 40%;
+    text-align: center;
+}
+
+#img-user-area {
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+#main-ul {
+    list-style: none;
+}
+
+#main-li {
+    display: inline-block;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.img1 {
+    position: relative;
+    left: 7vw;
+    top: 25vh;
+}
+
+aside {
+    position: absolute;
+    right: 5vw;
+    bottom: 16vh;
+    width: 20vw;
+    font-size: 25px;
+}
+
+aside text {
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    display: inline-block;
+    margin: 1%;
+    cursor: pointer;
+}
+
+aside button {
+    width: 10vw;
+    height: 5vh;
+    margin-top: 4vh;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+aside a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#buttons {
+    width: 22vw;
+}
+
+#decrição {
+    position: absolute;
+}
+
+#text {
+    word-break: normal;
+    width: 17vw;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.parcelado {
+    font-size: 2vw;
+    font-style: italic;
+}
+
+footer {
+    position: absolute;
+    top: 50vw;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    display: inline-block;
+    background: #000;
+    text-align: justify;
+}
+
+.footer-ul {
+    list-style: none;
+}
+
+.footer-li {
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.footer-a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer li:hover {
+    background: #585858;
+    border-radius: 5px;
+    text-align: center;
+}

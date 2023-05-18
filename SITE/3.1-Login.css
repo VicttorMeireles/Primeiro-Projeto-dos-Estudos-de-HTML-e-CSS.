@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+
+}
+
+header {
+  background: #000;
+  height: 15vh;
+  width: 100vw;
+  display: inline-block;
+  font-family: 'Antonio', sans-serif;
+}
+
+div {
+  position: relative;
+  left: 30vw;
+  width: 40vw;
+  height: 20vh;
+  border: 1px solid #000;
+  margin-top: 10vh;
+  padding-top: 3vh;
+  border-radius: 30px;
+  background: #44444444;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin: 5vh;
+  letter-spacing: 2vw;
+}
+
+form label {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+form input {
+  width: 15vw;
+  height: 3vh;
+  font-size: 50%;
+  font-weight: 700;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+button {
+  position: relative;
+  width: 8vw;
+  height: 4vh;
+  left: 60vw;
+  margin-top: 2vh;
+  font-size: 100%;
+  font-weight: 500;
+  border: 3px solid #000;
+  border-radius: 50px;
+  background: #000;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}

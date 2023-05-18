@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Antonio', sans-serif;
+}
+
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  background-color: #000;
+  font-weight: 100;
+  color: #fff;
+}
+
+
+header li:hover {
+  background: #585858;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#buscar:hover {
+
+  background: none;
+}
+
+
+
+#nav-ul {
+  list-style: none;
+}
+
+#nav-li {
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  cursor: pointer;
+}
+
+#nav-a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#login-cadastro {
+  display: inline;
+  margin-left: 40%;
+  text-align: center;
+}
+
+#img-user-area {
+  background: #ffffff;
+  border-radius: 50px;
+}
+
+#box-title {
+  position: relative;
+  text-align: center;
+  width: 25vw;
+  height: 15vh;
+  left: 40vw;
+  margin:4vh 0 8vh 0;
+  font-size: 5vw;
+  line-height:9vh;
+}
+
+#title-pt2{
+  font-size: 3vw;
+  color:#ff2525;
+  line-height:0.5vh
+}
+
+
+
+.box-text-img{
+  border:none;
+}
+
+.text-product{
+  font-size: 2vw;
+}
+.ul {
+  position: absolute;
+  border: none;
+  left:12vw;
+  width: 80vw;
+  text-align: center;
+}
+
+.li {
+  position: relative;
+  display: inline-block;
+  margin: 5vh 5vw 5vh 5vw;  
+  cursor: pointer;
+}
+
+.a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  list-style: none;
+}
+
+#img1{
+  border-radius: 20px ;
+}
+
+.parcelado{
+  font-size: 1.5vw;
+  font-style: italic;
+  }
+
+footer {
+  position: absolute;
+  top: 130vw;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  display: inline-block;
+  background: #000;
+  text-align: justify;
+}
+
+.footer-ul {
+  list-style: none;
+}
+
+.footer-li {
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  cursor: pointer;
+}
+
+.footer-a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer li:hover {
+  background: #585858;
+  border-radius: 5px;
+  text-align: center;
+}

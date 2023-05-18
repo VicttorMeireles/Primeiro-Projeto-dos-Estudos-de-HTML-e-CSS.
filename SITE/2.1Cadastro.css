@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 98.7vw;
+    height: 100vh;
+}
+
+header {
+    background: #000;
+    height: 15vh;
+    display: inline-block;
+    font-family: 'Antonio', sans-serif;
+}
+
+
+#box-cadastro {
+    position: relative;
+    left: 20vw;
+    width: 50vw;
+    height: 60vh;
+    margin: 1vw;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background: #44444444;
+}
+
+#box-cadastro-1 {
+    position: relative;
+    left: 20vw;
+    width: 50vw;
+    height: 35vh;
+    margin: 1vw;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background: #44444444;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 5vh 0;
+    letter-spacing: 2vw;
+    font-family: 'Antonio', sans-serif;
+}
+
+form label {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 5vw    ;
+}
+
+form input {
+    width: 15vw;
+    height: 3vh;
+    font-size: 50%;
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+#form-h2-1 {
+    width: 45vw;
+    height: 7vh;
+    font-family: 'Antonio', sans-serif; 
+    font-size: 30px;
+    text-align: center;
+    margin: 5vh 5vh;
+    letter-spacing: 2vw;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#form-h2-2 {
+    width: 28vw;
+    height: 7vh;
+    font-family: 'Antonio', sans-serif; 
+    font-size: 30px;
+    text-align: center;
+    margin: 5vh 20vh;
+    letter-spacing: 2vw;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+button {
+    position: relative;
+    width: 8vw;
+    height: 4vh;
+    left: 59vw;
+    bottom: 5vh;
+    margin: 8vh;
+    font-size: 100%;
+    font-weight: 500;
+    border: 3px solid #000;
+    border-radius: 50px;
+    background: #000;
+    cursor: pointer;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+}
