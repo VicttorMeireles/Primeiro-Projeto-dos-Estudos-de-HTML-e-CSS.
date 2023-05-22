@@ -79,6 +79,10 @@ main a{
   color:#000;
 }
 
+main button:hover{
+  opacity: 0.5;
+}
+
 #launch {
   position: relative;
   width: 100%;
